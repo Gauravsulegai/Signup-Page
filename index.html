@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign in Page</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <div class="box">
+            <h1 class="text">CUSTOMER LOGIN</h1>
+            <div id="form">
+                <form action="action_page.php" method="post">
+                    <div class="inputbox">
+                        <input type="text" id="fname" required>
+                        <span>FirstName</span>
+                    </div>
+                    <br>
+                    <div class="inputbox">
+                        <input type="text" id="lname">
+                        <span>LastName</span>
+                    </div>
+                    <br>
+                    <div class="inputbox">
+                        <input type="email" id="email" required>
+                        <span>Email</span>
+                    </div>
+                    <br>
+                    <div class="inputbox">
+                        <input type="password" id="pass" maxlength="12" required>
+                        <span>Password</span>
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <a href="" class="link">Forgot Password?</a>
+                    </div>
+                    <input type="submit" value="login">
+                </form>
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>
